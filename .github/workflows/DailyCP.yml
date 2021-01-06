@@ -12,8 +12,8 @@ on:
       - master
   watch:
     types: started
-  schedule:
-    - cron: 0 */3 * * *
+#   schedule:
+#     - cron: 0 */3 * * *
 
 jobs:
   build:
